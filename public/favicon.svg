@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="7" fill="#0A2545"/>
+  <text x="5" y="23" font-family="Arial" font-weight="900" font-size="16" fill="white">GSL</text>
+  <rect x="4" y="25" width="18" height="2.5" rx="1" fill="#EAB83E"/>
+</svg>

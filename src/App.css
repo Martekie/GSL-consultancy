@@ -1,0 +1,43 @@
+/* ===== FULL-PAGE BACKGROUND ===== */
+.app-root {
+  min-height: 100vh;
+  background:
+    /* Dark overlay so sections sit on a deep, moody base */
+    linear-gradient(rgba(8, 20, 40, 0.68), rgba(8, 20, 40, 0.68)),
+    url('https://i.pinimg.com/736x/ab/3a/52/ab3a52d71445cfc2d80c133f70409b50.jpg')
+    center center / cover fixed no-repeat;
+}
+
+/* ===== HERO FLOATING CARD ===== */
+.home-hero-wrapper {
+  padding: 48px 0 64px;
+}
+
+.hero-float-card {
+  background:
+    linear-gradient(135deg, rgba(7,27,52,0.88) 0%, rgba(10,37,69,0.82) 55%, rgba(18,56,95,0.88) 100%),
+    url('https://i.pinimg.com/736x/f3/33/18/f33318d628d0284cb024527402528997.jpg')
+    center center / cover no-repeat;
+  border-radius: 28px;
+  overflow: hidden;
+  box-shadow: 0 24px 80px rgba(10, 37, 69, 0.5);
+  position: relative;
+}
+
+/* Sections — slightly translucent so the dark bg peeks through at the edges */
+.home-services,
+.home-approach {
+  background: rgba(245, 248, 252, 0.96) !important;
+}
+
+.home-stats {
+  background: rgba(10, 37, 69, 0.97) !important;
+}
+
+.home-why {
+  background: rgba(255, 255, 255, 0.96) !important;
+}
+
+.home-cta {
+  background: rgba(245, 248, 252, 0.96) !important;
+}
